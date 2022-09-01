@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: 25px auto 55px;
+    padding: 30px;
+    overflow: hidden;
+    background-color: plum;
+}
+
+.controls{
+    width: 50%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.control{
+    margin: 0 15px;
+    padding: 15px 20px;
+    
+}
+
+#img{
+    margin:0 auto ;
+    padding: 80%;
+    display: grid;
+    grid-template-columns: auto0 auto auto auto auto;
+}
+
+.mix{
+    height: 200px;
+    margin: 5px;
+}
